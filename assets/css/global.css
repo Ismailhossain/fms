@@ -1,0 +1,305 @@
+
+#container {
+	width:960px;
+	padding:10px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+    top: 10px;
+
+}
+
+#example {
+	width:960px;
+	height:170px;
+	position:relative;
+}
+
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:960px;
+	height:205px;
+	top:-33px;
+	left:-300px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:-30px;
+	left:-9px;
+	z-index:100;
+    /*width: 800px;*/
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:960px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:570px;
+	height:150px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:55px;
+	left:-24px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:960px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:200px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:relative;
+	bottom:-35px;
+	left:0;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:540px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+/*
+	Footer
+*/
+
+/*#footer {*/
+	/*text-align:center;*/
+	/*width:580px;*/
+	/*margin-top:9px;*/
+	/*padding:4.5px 0 18px;*/
+	/*border-top:1px solid #dfdfdf;*/
+/*}*/
+
+/*#footer p {*/
+	/*margin:4.5px 0;*/
+	/*font-size:1.0em;*/
+/*}*/
+
+/*
+	Anchors
+*/
+
+/*a:link,a:visited {*/
+	/*color:#599100;*/
+	/*text-decoration:none;*/
+/*}*/
+
+/*a:hover,a:active {*/
+	/*color:#599100;*/
+	/*text-decoration:underline;*/
+/*}*/
+
+
+
+
+
+/*Start of pop-up*/
+
+
+
+.popup .popup-close {
+    position: absolute;
+    background-image: url(../images/popup-close.png);
+    width: 29px;
+    height: 28px;
+    background-repeat: no-repeat;
+    top: 41px;
+    right: 39px;
+}
+
+
+
+
+
+
+
+
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 203px;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    z-index: 9999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #626262;
+    line-height: 18px;
+}
+.popup .popup-content {
+    overflow: hidden;
+    padding: 20px 35px 20px 33px;
+    clear: both;
+}
+.popup .popup-logo1 {
+    position: absolute;
+    z-index: 10000;
+    /*background-image: url(../images/popup-logo.png);*/
+    width: 238px;
+    height: 72px;
+    background-repeat: no-repeat;
+    top: -36px;
+    left: -10px;
+}
+
+.red {
+    color: #e81818 !important;
+}
+.popup .popup-content {
+    /*background-image: url(../images/popup-bg.png);*/
+    overflow: hidden;
+    background-repeat: repeat-y;
+}
+0
+.popup-event .meta .title {
+    color: #1b3664;
+    display: inline-block;
+}
+.popup-event .meta {
+    padding: 0 0 10px 0;
+}
+
+.popup-event .meta .line {
+    padding-top: 0;
+}
+
+.popup-event .meta .date {
+    padding-bottom: 6px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #626262;
+    line-height: 16px;
+    display: block;
+}
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../images/layer.png);
+    background-repeat: repeat;
+    z-index: 6000;
+}
+
+
+
+
+.popup-event .event-title {
+    font-size: 17px;
+    color: #1b3664;
+    font-family: "HelveticaNeueLTStd75Bold", Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    padding-bottom: 5px;
+}
+.popup-event .student-name {
+    font-size: 17px;
+    color: #1b3664;
+    font-family: "HelveticaNeueLTStd75Bold", Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    padding-bottom: 5px;
+}
+
+
+#main_section {
+
+    margin-top: 30px;
+}
+
+
+/*End of pop-up*/
+
+
+
+
+
+
+
+
+
+
+

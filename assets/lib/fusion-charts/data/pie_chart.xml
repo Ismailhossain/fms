@@ -1,0 +1,24 @@
+<graph  caption='Pie Chart' 
+                decimalPrecision='0' 
+                showPercentageValues='1' 
+                showNames='1' 
+                numberPrefix='$' 
+                showValues='1' 
+                showPercentageInLabel='0' 
+                pieYScale='45' 
+                pieBorderAlpha='100' 
+                pieRadius='100' 
+                animation='1' 
+                shadowXShift='4' 
+                shadowYShift='4' 
+                shadowAlpha='40' 
+                pieFillAlpha='95' 
+                pieBorderColor='FFFFFF' 
+                bgColor="f1f1f1">
+   <set value='25' name='Item A' color='AFD8F8'/>
+   <set value='17' name='Item B' color='F6BD0F'/>
+   <set value='23' name='Item C' color='8BBA00' isSliced='1'/>
+   <set value='65' name='Item D' color='A66EDD'/>
+   <set value='22' name='Item E' color='F984A1'/>
+
+</graph>

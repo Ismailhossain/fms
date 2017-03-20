@@ -1,0 +1,23 @@
+<graph  caption='Brand Winner' 
+                yAxisName='Brand Value ($ m)' 
+                xAxisName='Brand' 
+                bgColor='F1F1F1' 
+                showValues='0' 
+                canvasBorderThickness='1' 
+                canvasBorderColor='999999' 
+                showAlternateVGridColor='1' 
+                alternateVGridColor='cdcdcd' 
+                divLineAlpha='0' 
+                decimalPrecision='0'>
+                
+        <set name='Coca-Cola' value='67000' hoverText='2006 Rank: 1, Country: US' color='AFD8F8'/> 
+        <set name='Microsoft' value='56926' hoverText='2006 Rank: 2, Country: US' color='F6BD0F'/> 
+        <set name='IBM' value='56201' hoverText='2006 Rank: 3, Country: US' color='8BBA00'/> 
+        <set name='GE' value='48907' hoverText='2006 Rank: 4, Country: US' color='FF8E46'/> 
+        <set name='Intel' value='32319' hoverText='2006 Rank: 5, Country: US' color='008E8E'/> 
+        <set name='Nokia' value='30131' hoverText='2006 Rank: 6, Country: Finland' color='D64646'/> 
+        <set name='Toyota' value='27941' hoverText='2006 Rank: 7, Country: Japan' color='8E468E'/> 
+        <set name='Disney' value='27848' hoverText='2006 Rank: 8, Country: US' color='588526'/> 
+        <set name='McDonalds' value='27501' hoverText='2006 Rank: 9, Country: US' color='B3AA00'/> 
+        <set name='Mercedes-Benz' value='21795' hoverText='2006 Rank: 10, Country: Germany' color='008ED6'/> 
+</graph>
